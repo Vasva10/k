@@ -134,3 +134,4 @@ function nachatZanovo() {
 
 sozdatIgru()
 obnovitOtobrazhenie()
+
