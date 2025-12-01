@@ -1,0 +1,19 @@
+.wrapper {
+  border: 2px dashed #cbd5f5;
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  text-align: center;
+  color: var(--color-neutral);
+  background: #fff;
+}
+
+.wrapper h3 {
+  margin-bottom: 8px;
+  color: #0f172a;
+  font-size: 1.25rem;
+}
+
+.wrapper p {
+  margin-bottom: 0;
+  color: var(--color-neutral);
+}

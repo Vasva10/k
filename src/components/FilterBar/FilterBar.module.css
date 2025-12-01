@@ -1,0 +1,49 @@
+.wrapper {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filterButton {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 8px 14px;
+  background: #fff;
+  color: #0f172a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filterButtonActive {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.search {
+  flex: 1 1 220px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+}
+
+.sort select {
+  border-radius: 6px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+}

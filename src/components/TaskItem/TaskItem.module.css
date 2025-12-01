@@ -1,0 +1,105 @@
+.card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.description {
+  color: #475569;
+  white-space: pre-line;
+}
+
+.moreBtn {
+  margin-top: 6px;
+  border: none;
+  background: transparent;
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+
+.badgeSuccess {
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--color-success);
+}
+
+.badgeWarning {
+  background: rgba(249, 115, 22, 0.12);
+  color: var(--color-warning);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--color-neutral);
+  font-size: 0.85rem;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.buttonPrimary {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.buttonGhost {
+  background: #fff;
+  color: #0f172a;
+  border-color: var(--color-border);
+}
+
+.buttonDanger {
+  background: #fff;
+  border-color: var(--color-danger);
+  color: var(--color-danger);
+}
